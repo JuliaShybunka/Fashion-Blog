@@ -1,0 +1,27 @@
+.header {
+  max-width: 1760px;
+  margin: 0 auto;
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__navigation {
+  max-width: 368px;
+}
+.header__navigation a {
+  color: #171717;
+
+  font-size: 14px;
+  line-height: 19px;
+}
+.header__navigation a + a {
+  margin-left: 30px;
+}
+
+.header__banner-img {
+  background-image: url(./Header_banner.jpg);
+  background-repeat: no-repeat;
+  min-height: 700px;
+  background-position: center center;
+}
